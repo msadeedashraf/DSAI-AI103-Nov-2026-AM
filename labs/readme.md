@@ -33,6 +33,15 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ```
 
+- Change the directory to the /labfiles/tools/python/tools-app
+
+```
+cd [drag the folder]
+```
+
 ```
 python -m pip install -r requirements.txt
 ```
+
+
+
