@@ -20,7 +20,7 @@ python -m venv .venv
 ```
 .\.venv\Scripts\Activate.ps1
 ```
-- if the script does get execute
+- if the script does not get execute
 
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
@@ -42,6 +42,32 @@ cd [drag the folder]
 ```
 python -m pip install -r requirements.txt
 ```
+
+- Check you have Azure CLI installed
+
+```
+az --version
+```
+
+- If not version not found 
+- Check whether Azure CLI is installed
+
+```
+winget list --id Microsoft.AzureCLI
+
+```
+- Install Azure CLI
+
+```
+winget install --exact --id Microsoft.AzureCLI
+
+```
+
+```
+az login 
+```
+
+
 
 
 
